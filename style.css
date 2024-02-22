@@ -1,0 +1,110 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    
+    font-family: 'Poppins', sans-serif;
+}
+
+.press{
+    background-color: green;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 50px;
+    color: aliceblue;
+    box-shadow: 5px 5px 10px black;
+    
+}
+
+.press:hover{
+    cursor: pointer;
+    box-shadow: -5px -5px 10px black;
+}
+
+.overlay {
+    background-color: black;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    opacity: 0.8;
+    z-index: 1;
+    display: none;
+  }
+  
+.container{
+    padding: 10px;
+    width: 400px;
+    height: 70%;
+    background-color: black;
+    color: aliceblue;
+    margin-left: 40%;
+    margin-top: 20px;
+    text-align: center;
+    position: absolute;
+    z-index: 2;
+    display: none;
+}
+
+.db img{
+    border-radius: 100%;
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    margin-top: -5px;
+    margin-left: -5px;
+}
+
+.container p{
+    margin-top: 10px;
+}
+
+.db{
+    padding: 5px;
+    border-radius: 100%;
+    width: 100px;
+    height: 100px;
+    margin-left: 140px;
+    background-color: aqua;
+    margin-top: 5px;
+}
+
+.container h2{
+    margin-top: 10px;
+}
+
+.container h3{
+    color: yellow;
+}
+
+.box input{
+    margin-top: 20px;
+    margin-left: 10px;
+    background-color: rgb(32, 30, 30);
+    color: aquamarine;
+    padding: 10px;
+    border:none;
+    border-radius: 5px;
+    width: 60%;
+    text-align: center;
+}
+input:hover{
+    cursor: pointer;
+} 
+
+.btn{
+    padding: 5px;
+    border-radius: 5px;
+    position: absolute;
+    background-color: rgb(32, 30, 30);
+    color: aquamarine;
+    bottom: 10px;
+    right: 30px;
+}
+
+.btn:hover{
+    cursor: pointer;
+}
