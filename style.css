@@ -108,3 +108,45 @@ input:hover{
 .btn:hover{
     cursor: pointer;
 }
+
+@media screen and (max-width:1000px){
+    .container{
+        width: 50%;
+        margin-left: 250px;  
+        height: 75%;
+    }
+    .db{
+        margin: 0 auto;
+    }
+    .press{
+        margin-left: 25px;
+    } 
+}
+
+@media screen and (max-width:750px){
+    .container{
+        width: 70%;
+        margin-left: 100px;  
+        height: 75%;
+    }
+    .db{
+        margin: 0 auto;
+    }
+    .press{
+        margin-left: 25px;
+    } 
+}
+
+@media screen and (max-width:600px){
+    .container{
+        width: 90%;
+        margin-left: 25px;  
+        height: 75%;
+    }
+    .db{
+        margin: 0 auto;
+    }
+    .press{
+        margin-left: 25px;
+    }
+}
